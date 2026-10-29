@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+    font-family: 'Sabrina';
+    src: url(../fontes/SABRINA_.TTF) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+.texto-um{
+    font-family: "Roboto";
+}
+.texto-dois{
+    font-family: "Montserrat";
+}
+.texto-tres{
+    font-family:"Sabrina" ;
+}
