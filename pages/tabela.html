@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Clara dos Santos">
+    <meta name="description" content="Resumos das aulas de THML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <title>Resumo das aulas de HTML</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: lightcyan;
+        }
+        th{
+            background-color: azure;
+            border: 2px solid cornflowerblue;
+            padding: 15px;
+        }
+        td{
+            background-color: rgb(178, 212, 201);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <nav>
+            <ul>
+                <li>
+                   <a href="./pages/fontes.html">Fontes</a> 
+                </li>
+                <li>
+                    <a href="./pages/display.html">Display</a>
+                </li>
+                <li>
+                    <a href="./pages/boxsizing.html">Boxsizing</a>
+                </li>
+                <li>
+                    <a href="./pages/position.html">Position</a>
+                </li>
+                <li>
+                    <a href="./pages/lista.html">Lista</a>
+                </li>
+                <li>
+                    <a href="./pages/overflow.html">Overflow</a>
+                </li>
+                <li>
+                    <a href="./pages/tabela.html"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <caption>Tabela de preços de cursos</caption>
+
+            <thead>
+                <tr>
+                    <th>Área</th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Design</td><td>InDesign</td><td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Photoshop</td><td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Ilustratot</td><td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Desenvolvimento</td><td>HTML</td><td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>CSS</td><td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>JS</td><td>R$1.000,00</td>
+                </tr>
+                <tr>
+                    <td>PHP</td><td>R$1.000,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Valores sujeitos s alterações sem aviso prévio</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
