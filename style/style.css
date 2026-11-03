@@ -18,3 +18,30 @@
 .texto-tres{
     font-family:"Sabrina" ;
 }
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+
+    width: 100px;
+    height: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: blueviolet;
+
+    border-radius: 15px;
+}
+nav ul li{
+    display: inline-block;
+}
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
+}
